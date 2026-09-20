@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webresto rizki - Jasa Pembuatan Website</title>
+
+    <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container navbar">
+            <a href="#beranda" class="logo">
+                <span>WEBRESTO RIZKI</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#beranda">Beranda</a>
+                <a href="#paket">Paket</a>
+                <a href="#demo">Demo</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+
+            <div class="clock" id="clock">00:00:00</div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="beranda">
+        <div class="container">
+            <div class="badge">
+                
+            </div>
+
+            <h1>
+                Wujudkan Website<br>
+                <span>Usaha Anda</span>
+            </h1>
+
+            <p>
+                Kami membantu umkm, toko online, dan personal
+                branding memiliki website yang modern, menarik,
+                responsif, dan mudah digunakan.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#paket" class="btn">Lihat Paket</a>
+                <a href="#demo" class="btn btn-outline">
+                    Lihat Demo Website
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAKET -->
+    <section id="paket">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pilih Paket Website</h2>
+                <p>
+                    Sesuaikan kebutuhan website dengan budget Anda.
+                </p>
+            </div>
+
+            <div class="packages">
+
+                <!-- PAKET BIASA -->
+                <div class="package">
+                    <h3>Paket Biasa</h3>
+
+                    <p class="description">
+                        Cocok untuk pemula dan personal branding.
+                    </p>
+
+                    <div class="price">
+                        Rp250,000 <small>/ website</small>
+                    </div>
+
+                    <ul class="features">
+                        <li>1 halaman website</li>
+                        <li>Desain sederhana dan modern</li>
+                        <li>Responsif HP dan komputer</li>
+                        <li>Informasi kontak</li>
+                        <li>Revisi 2 kali</li>
+                        <li>Estimasi 3-5 hari</li>
+                    </ul>
+
+                    <a href="https://wasap.at/9DHKeP" class="btn"
+                       onclick="pesan('Paket Biasa'); return false;">
+                        Pesan Paket
+                    </a>
+                </div>
+
+                <!-- PAKET MENENGAH -->
+                <div class="package featured">
+                    <div class="popular">Pilihan Ekonomis</div>
+
+                    <h3>Paket Menengah</h3>
+
+                    <p class="description">
+                        Cocok untuk bisnis dan UMKM.
+                    </p>
+
+                    <div class="price">
+                        Rp565.000 <small>/ website</small>
+                    </div>
+
+                    <ul class="features">
+                        <li>Maksimal 5 halaman</li>
+                        <li>Desain lebih profesional</li>
+                        <li>Responsif HP dan komputer</li>
+                        <li>Animasi dan efek sederhana</li>
+                        <li>Formulir kontak WhatsApp</li>
+                        <li>Revisi 4 kali</li>
+                        <li>Estimasi 5-10 hari</li>
+                    </ul>
+
+                    <a href="https://wasap.at/FRXGrl" class="btn"
+                       onclick="pesan('Paket Menengah'); return false;">
+                        Pesan Paket
+                    </a>
+                </div>
+
+                <!-- PAKET PREMIUM -->
+                <div class="package">
+                    <h3>Paket Premium</h3>
+
+                    <p class="description">
+                        Cocok untuk bisnis yang ingin lebih maksimal.
+                    </p>
+
+                    <div class="price">
+                        Rp750.000 <small>/ website</small>
+                    </div>
+
+                    <ul class="features">
+                        <li>Maksimal 10 halaman</li>
+                        <li>Desain eksklusif dan profesional</li>
+                        <li>Animasi dan interaksi</li>
+                        <li>Formulir dan fitur sesuai kebutuhan</li>
+                        <li>Optimasi tampilan mobile</li>
+                        <li>Revisi 6 kali</li>
+                        <li>Estimasi 10-20 hari</li>
+                    </ul>
+
+                     <a href="https://wasap.at/27r5TQ" class="btn"
+                       onclick="pesan('Paket Premium'); return false;">
+                        Pesan Paket
+                    </a>
+                </div>
+
+            </div>
+
+            <p class="demo-note">
+                Harga dan fitur di atas adalah contoh.
+                Sesuaikan dengan layanan yang Anda tawarkan.
+            </p>
+        </div>
+    </section>
+
+    <!-- DEMO WEBSITE -->
+    <section id="demo">
+        <div class="container">
+            <div class="section-title">
+                <h2>Demo Website</h2>
+                <p>
+                    Contoh tampilan website toko online yang kami buat.
+                </p>
+            </div>
+
+            <div class="demo-wrapper">
+                <div class="demo-bar">
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="demo-label">
+                        Demo Toko Online
+                    </span>
+
+                    <span class="demo-label">
+                        Preview
+                    </span>
+                </div>
+
+                <div class="demo-content">
+                    <div class="shop-nav">
+                        <h3>Kedai Kuliner pak rusdi</h3>
+                        <span>Beranda　 Produk　 Tentang</span>
+                    </div>
+
+                    <div class="shop-banner">
+                        <h3>Cintai kuliner tanah air</h3>
+                        <p>
+                           cicipi cita rasa nusantara yang tak ada duanya
+                        </p>
+                    </div>
+
+                    <h3 class="product-heading">
+                        Produk Pilihan
+                    </h3>
+
+                    <div class="products">
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="nas.jpg" alt="/">
+                            </div>
+
+                            <div class="product-info">
+                                <h4>Nasi Goreng</h4>
+                                <p>Rp13.000</p>
+
+                                <button onclick="beli('Nasi Goreng')">
+                                    Beli Sekarang
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="sat.jpg" alt="">
+                            </div>
+
+                            <div class="product-info">
+                                <h4>Sate Ayam</h4>
+                                <p>Rp15.000</p>
+
+                                <button onclick="beli('Sate Ayam')">
+                                    Beli Sekarang
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="mie2.jpg" alt="">
+                            </div>
+
+                            <div class="product-info">
+                                <h4>Mie Ayam</h4>
+                                <p>Rp10.000</p>
+
+                                <button onclick="beli('Mie Ayam')">
+                                    Beli Sekarang
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <p class="demo-note">
+                Tombol beli akan mengarahkan pengunjung ke WhatsApp.
+            </p>
+        </div>
+    </section>
+
+    <!-- CARA KERJA -->
+    <section id="cara-kerja">
+        <div class="container">
+            <div class="section-title">
+                <h2>Bagaimana Cara Kerjanya?</h2>
+                <p>
+                    Proses pemesanan website yang mudah dan praktis.
+                </p>
+            </div>
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Pilih Paket</h3>
+                    <p>
+                        Pilih paket website yang sesuai dengan
+                        kebutuhan dan anggaran Anda.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Konsultasi</h3>
+                    <p>
+                        Diskusikan desain, fitur, dan informasi
+                        yang ingin ditampilkan pada website.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Website Selesai</h3>
+                    <p>
+                        Website dibuat sesuai kesepakatan dan
+                        siap digunakan setelah proses selesai.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+        <div class="container">
+            <div class="contact-box">
+
+                <div>
+                    <div class="badge">Hubungi Kami</div>
+
+                    <h2>Siap punya website tanpa belajar coding..?
+                        <br>
+                        
+                    </h2>
+
+                    <p>
+                        Konsultasikan kebutuhan website Anda
+                        sekarang juga melalui WhatsApp.
+                    </p>
+
+                    <a href="https://wasap.at/FefpPR" class="btn">
+                        Scan atau Klik di sini :D
+                    </a>
+                </div>
+
+                <div class="qr-box">
+                    <img id=""
+                         src="qr.png"
+                         alt="QR Code WhatsApp">
+
+                    <h3>Scan QR Code</h3>
+
+                    <p>
+                        Pindai menggunakan kamera HP untuk
+                        menghubungi kami melalui WhatsApp.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <p>
+                © <span id="year"></span> WebCraft.
+                All Rights Reserved.
+            </p>
+
+            <p>
+                Dibuat dengan untuk bisnis Anda.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // GANTI DENGAN NOMOR WHATSAPP ANDA
+        // Contoh: 628123456789089
+
+        // JAM DIGITAL
+        function updateJam() {
+            const sekarang = new Date();
+
+            const jam = sekarang.toLocaleTimeString("id-ID", {
+                timeZone: "Asia/Jakarta",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: false
+            });
+
+            document.getElementById("clock").textContent =
+                jam + " WIB";
+        }
+
+        updateJam();
+        setInterval(updateJam, 1000);
+
+        // TAHUN COPYRIGHT
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        // QR CODE WHATSAPP
+        const linkWhatsApp =
+            "https://wasap.at/1zp1B8" + nomorWhatsApp;
+
+        const qrCode =
+            "https://api.qrserver.com/v1/create-qr-code/" +
+            "?size=250x250&data=" +
+            encodeURIComponent(linkWhatsApp);
+
+        document.getElementById("qrCode").src = qrCode;
+    </script>
+
+</body>
+</html>
